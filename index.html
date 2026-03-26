@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Management System</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="blog-management">
+      <div class="overlay-container">
+        <div class="popup">
+        </div>
+      </div>
+      <h1 class="title">Blog Post Management</h1>
+      <div class="blog-container container">
+        <h3 class="sub-title">Create New Blog</h3>
+        <input
+          type="text"
+          placeholder="Post Title"
+          id="post-title"
+          name="post-title"
+        />
+        <input
+          type="text"
+          placeholder="Image URL"
+          id="Image_url"
+          name="Image_url"
+        />
+        <textarea
+          name="post-comment"
+          id="post_comment"
+          placeholder="Write your post here..."
+        ></textarea>
+        <button id="addPost">Add Post</button>
+      </div>
+    </section>
+    <div class="blog-list-container">
+      <div class="header container">
+        <h2 id="title">All Posts</h2>
+      </div>
+      <div class="blogs-parent container">
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
