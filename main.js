@@ -152,7 +152,7 @@ const addPostToDom = (post) => {
     <div class="blog-body">
             <h3 class="post-description">${post.postTitle}</h3>
             <span class="post-date"> ${post.currentDate}</span>
-            <img src="${post.postImage}" alt="user's post image" />
+            <img src="${post.postImage}" alt="user's post image"/>
             <p class="post_info">${post.postComment}</p>
           </div>
           <div class="post_control">
